@@ -3,7 +3,7 @@ A collection of code written to compute epigraphical/level set projections numer
 
 These implementations are based on the algorithms and results of Hoheisel, Burke, and Quang, found in [Link to GenProxNew preprint/whatever](https://math.mcgill.ca/hoheisel/) and [Link to K-epigraph projection paper](https://www.math.mcgill.ca/hoheisel/composite_conjugate.pdf) (currently this points to the Convex Convex-Composite paper but the work in Quang's paper that generalizes the epigraph projection problem is more relevant).
 
-Note that the code written in C requires the [GNU Scientific Library](https://www.gnu.org/software/gsl/) for generating random numbers.
+Note that the code written in C requires the [GNU Scientific Library](https://www.gnu.org/software/gsl/) for generating random numbers. In the future, the MATLAB code should be replaced by C code that employs GSL for the linear algebra used in matrix manipulation.
 
 ## L1 Ball Projection
 Code for computing the projection of a vector onto the <img src="https://latex.codecogs.com/svg.latex?l_1" title="l_1" /> unit ball. Found in projl1.c  
