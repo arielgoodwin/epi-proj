@@ -96,7 +96,7 @@ int main() {
 
 }
 
-// this is the derivative (w.r.t. lambda) of the Theta function below
+// this is the derivative (w.r.t. lambda) of the Theta function in Hoheisel's paper
 // we do some extra work in this function to compute a Bouligand subgradient at lambda_k
 // the code is written assuming the ball has unit radius
 double gradTheta(double lambda, double x[], int* g) {
