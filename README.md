@@ -18,4 +18,4 @@ Code for computing the projection of a matrix onto the nuclear norm unit ball, a
 Code for computing the projection of a matrix onto the level sets of the function <img src="https://latex.codecogs.com/svg.latex?X\mapsto&space;-\log&space;\det&space;X" title="X\mapsto -\log \det X" />, which is a spectral generalization of the negative sum of logs function based on the vector of eigenvalues of a given matrix. Found in projlogdet.m
 
 ## Gram Epigraph Projection
-Code for computing the projection of a matrix onto the K-epigraph of the function <img src="https://latex.codecogs.com/svg.latex?X\mapsto&space;X^TX" title="X\mapsto XX^T" />. Here K represents the positive semidefinite cone. Found in projgram.m
+Code for computing the projection of a matrix onto the K-epigraph of the function <img src="https://latex.codecogs.com/svg.latex?X\mapsto&space;XX^T" title="X\mapsto XX^T" />. Here K represents the positive semidefinite cone. Found in projgram.m
