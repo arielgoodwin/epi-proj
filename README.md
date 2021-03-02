@@ -1,7 +1,7 @@
 # epi-proj
 A collection of code written to compute epigraphical/level set projections numerically.
 
-These implementations are based on the algorithms and results of Hoheisel, Friedlander, and Goodwin, which can be found at ....
+These implementations are based on the algorithms and results of Hoheisel, Friedlander, and Goodwin, which can be found at https://arxiv.org/abs/2102.06809.
 
 Note that the code written in C requires the [GNU Scientific Library](https://www.gnu.org/software/gsl/) (GSL) for generating random numbers.
 
